@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{
+char name[12],district[23],country[23];
+printf("enter your name here\n");
+scanf("%s", &name);
+printf("enter your district below\n");
+scanf("%s", &district);
+printf("enter your country of residence\n");
+scanf("%s", &country);
+printf("%s is from %s in %s",name,district,country);
+getch(0);
+}
